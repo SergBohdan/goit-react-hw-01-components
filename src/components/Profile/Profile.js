@@ -1,8 +1,8 @@
 export const Profile = ({ items }) => {
   return (
-    <div className="container">
-      <div className="profile">
-        <img src={items.avatar} alt={items.username} />
+    <div className="profile-container">
+      <div className="profile-card">
+        <img className="profile-avatar" src={items.avatar} alt={items.username} />
         <p>{items.username}</p>
         <p>{items.tag}</p>
         <p>{items.location}</p>

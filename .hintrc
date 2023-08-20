@@ -3,7 +3,8 @@
     "development"
   ],
   "hints": {
-    "meta-viewport": "off",
-    "axe/language": "off"
+    "meta-viewport": "on",
+    "axe/language": "on",
+    "compat-api/html": "on"
   }
 }
