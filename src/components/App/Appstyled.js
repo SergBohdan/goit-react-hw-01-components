@@ -7,8 +7,9 @@ export const Container = styled.div`
   text-align: center;
   justify-content: center;
   gap: 100px;
-  max-width: 1200px;
+  max-width: 790px;
   margin: 0 auto;
   padding: 20px;
+  background-color: lightgrey;
  
 `;
