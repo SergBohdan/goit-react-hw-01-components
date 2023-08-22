@@ -1,13 +1,7 @@
 import PropTypes from 'prop-types';
-import {ProfileContainer} from './ProfileStyled';
-import {ProfileWrapper} from './ProfileStyled';
-import {ProfileAvatar} from './ProfileStyled';
-import {ProfileName} from './ProfileStyled';
-import {ProfileTag} from './ProfileStyled';
-import {ProfileLocation} from './ProfileStyled';
-import {StatList} from './ProfileStyled';
-import {StatItem} from './ProfileStyled';
-import {StatNumber} from './ProfileStyled';
+import {ProfileContainer, ProfileWrapper, ProfileAvatar, 
+  ProfileName, ProfileTag, ProfileLocation, StatList,
+ StatItem, StatNumber} from './ProfileStyled';
 
 export const Profile = ({ items }) => {
   return (

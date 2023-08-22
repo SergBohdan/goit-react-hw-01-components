@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import {TransactionTable} from './TransactionHistoryStyled';
-import {TransactionTableHead} from './TransactionHistoryStyled';
-import {TransactionHeader} from './TransactionHistoryStyled';
-import {TransactionRow} from './TransactionHistoryStyled';
-import {TransactionCell} from './TransactionHistoryStyled';
+import {TransactionTable,
+TransactionTableHead,
+TransactionHeader,
+TransactionRow,
+TransactionCell} from './TransactionHistoryStyled';
 
 export const TransHistory = ({ transactions }) => {
   return (

@@ -1,15 +1,15 @@
 import PropTypes from 'prop-types';
-import {StatsWrapper} from './StatisticsStyled';
-import {StatsList} from './StatisticsStyled';
-import {StatsTitle} from './StatisticsStyled';
-import {StatsItem} from './StatisticsStyled';
-import {StatsLabel} from './StatisticsStyled';
-import {StatsPercentage} from './StatisticsStyled';
+import {StatsWrapper,
+StatsList, 
+StatsTitle,
+StatsItem,
+StatsLabel,
+StatsPercentage} from './StatisticsStyled';
 
 export const Statistics = ({ title, stats }) => {
   return (
     <StatsWrapper>
-      <StatsTitle>{title}</StatsTitle>
+        {title && <StatsTitle>{title}</StatsTitle>}
 
       <StatsList>
         {stats.map(({ id, label, percentage }) => (
