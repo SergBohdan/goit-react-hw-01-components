@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
 import { FriendStatus, 
- FriendCard, FriendName, FriendIcon } from './FriendListItemStyled';
+  FriendItem, FriendName, FriendIcon } from './FriendListItemStyled';
 
 export function FriendListItem({friend: { id, isOnline, avatar, name } }) {
   return (
-    <FriendCard key={id}>
+    <FriendItem key={id}>
        <FriendStatus isOnline={isOnline}></FriendStatus>
       <FriendIcon src={avatar} alt={name} width="48" />
       <FriendName>{name}</FriendName>
-    </FriendCard>
+    </FriendItem>
   );
 }
 

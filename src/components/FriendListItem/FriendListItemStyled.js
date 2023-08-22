@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const FriendCard = styled.li`
+export const FriendItem = styled.li`
 display: flex;
   align-items: center;
   gap: 15px;
